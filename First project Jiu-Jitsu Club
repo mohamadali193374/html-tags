@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <!-- Main Heading -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Brazilian Jiu-Jitsu Club </title>
+    <link rel="stylesheet" href="style.css"></link>
+    <style>
+    img {
+        filter: brightness(79%);
+    } /*rendre les images sombres*/
+    
+
+</style>
+</head>
+
+<body>
+    <h1>Brazilian Jiu-Jitsu Club</h1>
+
+    <p> <!-- Description Paragraph -->
+         Brazilian Jiu-Jitsu is primarily used for self-defense.
+         <br>
+It specializes in bringing the opponent to the ground,<br>
+then applying a hold to immobilize them, <br> even to the point of breaking their limbs or causing death.
+    </p>
+    <hr> <!--<hr> tag is used to create a horizontal line-->
+    
+    <a href="https://www.youtube.com/shorts/6tLBSNIwaDc"> <!-- First Video Link -->        
+        <i>Click here</i> <!--Italic text-->
+        <br> 
+        to watch
+        <b>Jon Jones Layoto Choke</b> <!--Bold text-->
+    </a> 
+    
+    <hr> <!--<hr> tag is used to create a horizontal line-->
+    <div>
+    <img src="https://images.pexels.com/photos/8611296/pexels-photo-8611296.jpeg" alt="JJB takedown technic" height="333" weidth="333"/>  <!-- Images -->
+
+    <img src="https://www.shutterstock.com/image-vector/brazilian-jiujitsu-technique-vector-illustration-600w-2565573303.jpg"
+        alt="triangle technic" height="333" weidth="333" />
+
+    <img src="https://i.pinimg.com/736x/5b/ed/93/5bed934311eba714fadbacf18f0c38e2.jpg" alt="JJB image of triangle"
+        height="333" weidth="333" /> <!-- Images -->
+    
+    <img src=" https://www.grapplearts.com/wp-content/uploads/2013/03/Tapping-out-from-Triangle-Choke.png " alt="jjb takedown technic" height="333" width="425"/>
+    </div>
+    <hr> 
+    <br>
+
+    <a href="https://www.youtube.com/shorts/IrOqHj6CeXo">  <!-- Second Video Link -->
+
+        <i>Clic here</i>  <!--Italic text-->
+        <br>
+        to learn <b>triangle Choke</b> 
+    </a>
+
+        <hr><br>
+        <pre> <!--permet de creer des espaces vides-->                           <b><big>Its All About:</big></b>  </pre>  
+
+
+    <div style="display: flex; gap: 40px;"><!--style="..."
+C’est une façon d’ajouter du CSS directement dans le HTML.
+Ici, on donne des instructions de mise en page à la boîte <div>.👉 display: flex aligne les éléments horizontalement
+
+-->
+     <div><!-- une boîte invisible qui sert à regrouper du contenu.Elle ne change rien visuellement par défaut, mais elle est très utile pour organiser la page.-->
+
+       <ol> <!--creer des listes avec ordre-->
+            <li><b>technic: </b>-<i><u>  pour garder une technique stable</u></i></li>
+            <li><b>Timing: </b>-<i><u>  pour agir au bon moment</u></i></li>
+            <li><b>Srenght: </b>-<i><u>  pour avoir de la puissance</u></i></li>
+            <li><b>Speed: </b>-<i><u>  pour penser avant d’agir</u></i></li>
+        </ol> 
+     </div>
+    <div>
+        <ul> <!--creer un liste sans ordre-->
+            <li><b>consistency: </b>-<i><u>  pour bien exécuter les mouvements</u></i></li>
+            <li><b>Discipline: </b>-<i><u>  pour rester concentré et régulier</u></i></li>
+            <li><b>Mindset: </b>-<i><u>  pour garder un bon état d’esprit</u></i></li>
+            <li><b>Responsibility: </b>-<i><u>  pour assumer ses choix et ses actes</u></i></li>
+        </ul> 
+      </div>
+    </div>
+  
+    <hr>
+    Everyone should learn how to <big>defend</big> themselves. <!--Motivational text--> <!--(Big text)-->
+
+    <hr>
+
+    Learn how to <big>attack</big> to help the one who needs. <!--small text--> 
+    <hr>
+        <big>Signe-in:</big>
+    <form action="/action.php"><!-- <form>(crée un formulaire pour que l'utilisateur puisse envoyer ses réponses).-->
+        <input type="text" placeholder="Email"> <!--<input>(sert à créer des champs que l'utilisateur peut remplir, sélectionner ou cocher dans un formulaire).-->
+        <input type="password" placeholder="Password">
+    <br>
+    <label for="1"> <!--sert bien au interaction lorsqu'un usager clique sur le texte de case pour cocher le case-->
+        <input type="radio" value="Male" name="gender" id="1">male
+        </label>
+        <label for="2">
+        <input type="radio" value="female" name="gender" id="2">female
+    </label> 
+    </form>
+</body>
+
+</html>
